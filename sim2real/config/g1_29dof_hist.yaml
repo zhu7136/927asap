@@ -15,7 +15,7 @@ INTERFACE: "lo" # Yuanhang: in simulation, lo0 for mac, lo for linux
 # # Interface
 # INTERFACE: "lo" # Yuanhang: in simulation, lo0 for mac, lo for linux
 
-USE_JOYSTICK: 0 # Simulate Unitree WirelessController using a gamepad (0: disable, 1: enable)
+USE_JOYSTICK: 1 # Simulate Unitree WirelessController using a gamepad (0: disable, 1: enable)
 JOYSTICK_TYPE: "xbox" # support "xbox" and "switch" gamepad layout
 JOYSTICK_DEVICE: 0 # Joystick number
 
